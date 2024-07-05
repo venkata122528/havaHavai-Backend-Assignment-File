@@ -82,5 +82,5 @@ app.get("/airport/", async (request, response) => {
     },
   };
 
-  console.log(result);
+  response.send(result);
 });
